@@ -76,7 +76,7 @@ class FileStorage:
                 all_obj = self.all(cls)
                 for value in all_obj.values():
                     if value.id == id:
-                        return None
+                        return value
             return
         return
 
